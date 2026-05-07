@@ -68,6 +68,7 @@ export function TaskManager() {
       <div>
         <h1 className="text-2xl font-semibold">팀 일감</h1>
         <p className="text-sm text-muted-foreground mt-1">내가 만들거나 내게 배정된 일감만 표시됩니다.</p>
+        <p className="text-sm mt-1">ktds pym</p>
       </div>
 
       <form onSubmit={addTask} className="flex gap-2">

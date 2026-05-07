@@ -16,7 +16,10 @@ export default function LoginPage() {
 
   return (
     <div className="flex min-h-screen items-center justify-center">
-      <Button onClick={signInWithGoogle}>Google로 로그인</Button>
+      <div className="flex flex-col items-center gap-4">
+        <p>pym</p>
+        <Button onClick={signInWithGoogle}>Google로 로그인</Button>
+      </div>
     </div>
   );
 }
